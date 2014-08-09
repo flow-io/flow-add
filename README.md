@@ -1,5 +1,5 @@
 flow-add
-=========
+========
 
 Transform stream factory to increment streamed numeric data values.
 
