@@ -1,0 +1,53 @@
+{
+  "name": "flow-add",
+  "version": "0.0.0",
+  "description": "Transform stream factory to increment streamed numeric data values.",
+  "author": {
+    "name": "Athan Reines",
+    "email": "athan@nodeprime.com"
+  },
+  "contributors": [
+    {
+      "name": "Athan Reines",
+      "email": "athan@nodeprime.com"
+    }
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/flow-io/flow-add.git"
+  },
+  "keywords": [
+    "stream",
+    "writable",
+    "readable",
+    "transform",
+    "through",
+    "flow",
+    "flow.io",
+    "add",
+    "math",
+    "statistics",
+    "stats"
+  ],
+  "bugs": {
+    "url": "https://github.com/flow-io/flow-add/issues"
+  },
+  "dependencies": {
+    "through2": "^0.5.1"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x",
+    "event-stream": "~3.1.5"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ]
+}
